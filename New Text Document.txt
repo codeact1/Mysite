@@ -1,0 +1,22 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaChaka Robinson</title>
+</head>
+<body>
+    <h1>LaChaka Robinson</h1>
+
+    <h2>Biography</h2>
+
+    <p>My IT career started in <b>1999</b> after I graduated highschool, I went off to <i>Basic Training</i> for the United States Army. Back then the internet was pretty new and cellphones did'nt have GPS or cameras. After basic I attended <sup>Advance Individual Training</sup> at Fort Gordon, Ga where I was trained in Information Systems Analyst AKA <sub>Compter Technician</sub> . Back then dial up was still a thing.  
+    Over 20 years <ins>later it's been interesting to see how IT has changed the world</ins>.  I remember researching things online in Highschool, now you can pay bills online, fill and file applications, and also go to school.  I started out doing Desktop and Network Support and now I'm leaning into the future with <mark> Application and Software Development.</mark> 
+          </p>
+
+
+    <h3>Hobbies</h3>
+      
+</body>
+</html>

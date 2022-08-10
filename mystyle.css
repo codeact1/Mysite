@@ -1,0 +1,107 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,200&family=Roboto:wght@300&display=swap');
+*{
+    margin: 20;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+   
+}
+h1,h2,h3,h4,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+/*utilities*/
+.container{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.btn-small{
+width: 15rem;
+font-size: 1.4rem;
+
+}
+.heading {
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 1px;
+}
+
+/* header */
+.main-div{
+display: block;
+justify-content: left;
+
+}
+.site-header{
+    background-image: url(https://www.123rf.com/photo_72572614_fitness-background.html);
+    background-color: yellow;
+    width: 500px;
+    text-align: center;
+}
+.site-header h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-shadow: 3px 3px white;
+
+}
+.site-header .title{
+   font-size: 32px;
+   font-weight: bold; 
+   text-align: center;
+   letter-spacing: 3px;
+}
+.site-header .location i{
+    margin-right: 10px;
+
+}
+.site-header .location:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.my-name{
+
+font-size: large;
+}
+a.btn{
+    display: block;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*about*/
+.info h3{
+
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.info h3 span{
+    color: white;
+    margin-right: 1rem;
+
+}

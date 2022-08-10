@@ -1,0 +1,42 @@
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+/*class name selector .*/
+.text{
+    text-align: justify;
+    font-size: 14px;
+    color: darkgray;
+}
+h3.text{
+    color: red;
+}
+/*id selector #*/
+#addBtn{
+    background-color: darkcyan; 
+    color: white;
+    border:none;
+    padding: 20px;
+}
+header nav.menu{/*parent*/
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header nav.menu a{/*children*/
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 150px;
+
+}
+footer nav.menu{
+    background-color: black;
+
+}

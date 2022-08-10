@@ -1,0 +1,52 @@
+h1{
+    color:blue;
+    background-color: black;
+    text-align: center;
+  }  
+    /*class name selector*/
+    .text{
+        text-align: justify;
+        font-size: 14px;
+        color:darkgray
+    }
+p.text{
+    color:black;
+}
+#addBtn{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+/*header*/
+.main-div{
+display: flex;
+}
+.site-header{
+    position: fixed;
+
+
+}
+
+header nav.menu{/*parent*/
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+
+}
+header nav.menu a{/*children*/
+    display: ;
+    background-color: black;
+    color: white;
+    width: 150px;
+
+}
+footer nav.menu{
+    background-color: black;
+}

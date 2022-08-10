@@ -1,0 +1,7 @@
+.site-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 1.6rem;
+}

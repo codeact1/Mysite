@@ -1,0 +1,71 @@
+1{
+    color:blue;
+    background-color: yellow;
+    text-align: center;
+  }  
+    /*class name selector*/
+    .text{
+        text-align: justify;
+        font-size: 14px;
+        color:darkgray
+    }
+p.text{
+    color:black;
+}
+
+body{
+font-family: lato;
+background-color: brown;
+padding-left: 1rem;
+}
+
+/*header*/
+.main-div{
+display: flex;
+}
+.site-header{
+    width: 50rem;/*500px*/
+    padding: 1rem;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.site-header h1{
+    color: white;
+}
+
+header nav.menu{/*parent*/
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+
+}
+header nav.menu a{/*children*/
+    display: ;
+    background-color: whitesmoke;
+    color: white;
+    width: 150px;
+
+}
+footer nav.menu{
+    background-color: red;
+}
+
+nav.menu{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5rem;
+    text-decoration: none;
+    text-align: center;
+
+
+}

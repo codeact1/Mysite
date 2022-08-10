@@ -1,0 +1,97 @@
+/*global*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding-left: 1rem;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size: 1.6rem;
+    padding-left: 5rem;
+
+}
+/*utilities*/
+
+/*header*/
+.main-div{
+    display: flex;
+}
+.site-header{
+    width: 50rem;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image1{
+    width: 100%;
+}
+.site-header h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+}
+.site-header .title{
+    color: black;
+}
+.site-header .location{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+
+header nav.menu{/*parent*/
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+header nav.menu a{/*children*/
+    
+    background-color: black;
+    color: white;
+    width: 150px;
+} 
+    
+    
+footer nav.menu a{
+    background-color: whitesmoke;
+    font-size: large;
+    color: black;
+}
+header nav.menu a{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
